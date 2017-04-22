@@ -1,0 +1,8 @@
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/bin/Debug/netcoreapp1.1/devWarsztaty-GatewayService.deps.json
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/bin/Debug/netcoreapp1.1/devWarsztaty-GatewayService.runtimeconfig.json
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/bin/Debug/netcoreapp1.1/devWarsztaty-GatewayService.runtimeconfig.dev.json
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/bin/Debug/netcoreapp1.1/devWarsztaty-GatewayService.dll
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/bin/Debug/netcoreapp1.1/devWarsztaty-GatewayService.pdb
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/obj/Debug/netcoreapp1.1/devWarsztaty-GatewayService.AssemblyInfo.cs
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/obj/Debug/netcoreapp1.1/devWarsztaty-GatewayService.dll
+/home/pawel/repos/workshop/wroclaw-test-repos/devWarsztaty-GatewayService/src/devWarsztaty-GatewayService/obj/Debug/netcoreapp1.1/devWarsztaty-GatewayService.pdb
