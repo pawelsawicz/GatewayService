@@ -6,7 +6,7 @@ namespace devWarsztaty_GatewayService
 {
     public class ScoringResult
     {
-        public bool Elig { get; set; }
+        public bool Eligible { get; set; }
     }
 
     public class ScoringService
@@ -14,7 +14,7 @@ namespace devWarsztaty_GatewayService
         public ScoringResult GetScore(QuoteRequest quoteRequest)
         {
             var httpClient = new HttpClient();
-            httpClient.BaseAddress = new Uri("http://localhost:5001");
+            httpClient.BaseAddress = new Uri("http://172.17.0.2:5001");
             var json = JsonConvert.SerializeObject(quoteRequest);
             var requestBody = new StringContent(json);
             requestBody.Headers.Remove("Content-Type");
@@ -22,8 +22,7 @@ namespace devWarsztaty_GatewayService
 
             var result = httpClient.PostAsync("/scores", requestBody).Result;
             var resultObject = result.Content.ReadAsStringAsync().Result;
-
-            return new ScoringResult();
+            return JsonConvert.DeserializeObject<ScoringResult>(resultObject);
         }
     }
 }

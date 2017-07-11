@@ -30,7 +30,7 @@ namespace devWarsztaty_GatewayService
                 Mortgage = false
             };
             var scoringResult = scoringService.GetScore(quoteRequest);
-            if (scoringResult.Elig)
+            if (scoringResult.Eligible)
             {
                 //var matchingResult = matchingService.GetMatching(quoteRequest);
                 return httpContext.Response.WriteAsync("Done!");

@@ -26,10 +26,7 @@ namespace devWarsztaty_GatewayService
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            SetupRoutes(app);            
         }
 
         private void SetupRoutes(IApplicationBuilder app)

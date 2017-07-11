@@ -21,6 +21,6 @@ WORKDIR /usr/share/app/src/devWarsztaty-GatewayService
 RUN dotnet restore \
     && dotnet build
 
-EXPOSE 5001
+EXPOSE 5002
 
 CMD ["dotnet", "run"]
